@@ -1,0 +1,85 @@
+body{
+    padding:50px;
+    font-weight: bold;
+}
+
+ul.simple-tabs{
+    max-width: 100%;
+}
+
+ul.simple-tabs li{
+    width:25%;
+
+}
+ul.simple-tabs li{
+    background:white;
+    color:grey;
+}
+.tab-page{
+    max-width:100%;
+    border: thin rgba(255, 255, 255, 0.454) solid;
+    background: rgba(244, 245, 245, 0.386);
+}
+form{
+    clear:both;
+    padding:30px;
+    line-height: 40px;
+}
+form input{
+    width:88%;
+    padding:1.3%;
+    margin-bottom:20px;
+
+}
+#checkinlabel{
+    margin-right:43%;
+}
+#checkindate,#checkoutdate{
+    width:40%;
+    margin-bottom:30px;
+}
+#checkindate{
+    margin-right:5%;
+}
+#age,#children{
+    margin-right:13%;
+}
+#agein,#childrenin{
+    width:5%;
+}
+#classin{
+    width:13%;
+}
+#agein{
+    margin-right:15%;
+}
+#childrenin{
+    margin-right: 16%;
+}
+button{
+    margin-top:35px;
+    margin-bottom:10px;
+    padding:17px 80px;
+    background: #4dadf7;
+    color:white;
+    font-size:1em;
+}
+i{ margin-right:10px;}
+.fontAwesome {
+    font-family: 'Helvetica', FontAwesome, sans-serif;
+  }
+  h1{
+      text-align: center;
+      color:#da480f;
+      font-size:3.0em;
+  }
+  #tab-two input,#tab-three input{
+      width:40%;
+
+  }
+  #fromin{
+      margin-right:5%;
+  }
+input{
+  font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+}
