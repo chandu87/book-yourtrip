@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Layout exercise</title>
+        <meta name="description" content="Layout exercise">
+        <meta name="author" content="SitePoint">
+        <link rel="stylesheet" type="text/css" href="css/default.css">
+        <link rel="stylesheet" type="text/css" href="css/demo.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+
+    </head>
+
+    <body background="https://hdwallsource.com/img/2014/9/beautiful-sea-foam-wallpaper-39428-40337-hd-wallpapers.jpg">
+        <h1>Book Your Best Trip</h1>
+                <ul class="simple-tabs" id="example-tabs">
+                <li class="tab-one active"><i class="fas fa-home"></i>  Hotels</li>
+                <li class="tab-two"><i class="fas fa-plane"></i> Flights</li>
+                <li class="tab-three"><i class="fas fa-car"></i> Cars</li>
+                <li class="tab-four"><i class="fas fa-map-marker"></i> Destinations</li>
+
+            </ul>
+        
+            <div id="tab-one" class="tab-page active-page">
+                <form>
+                    <div>
+                        <input placeholder="&#xf041; Departure City or Hotel" />
+                    </div>
+                    <div>
+                        <label id="checkinlabel">Check In</label>
+                        <label id="checkoutlabel">Check Out</label>
+                    </div>
+                    <div>
+                        <input id="checkindate" type="date" placeholder="19/10/2015"/>
+                        <input id="checkoutdate" type="date" placeholder="19/10/2015"/>
+                    </div>
+                    <div>
+                        <label id="age">Adutls (18+)</label>
+                        <label id="children">Children (0-17)</label>    
+                        <label id="class">Class</label>    
+                    </div>
+                    <div>
+                        <select id="agein">
+                            <option value="1">0</option>
+                            <option value="1">1</option>
+                            <option value="1">2</option>
+                            <option value="1">3</option>
+                            <option value="1">5</option>
+                            <option value="1">6</option>
+                            <option value="1">7</option>
+                            <option value="1">8</option>
+                            <option value="1">9</option>
+                            <option value="1">10</option>
+                            <option value="1">11</option>                            
+                            <option value="1">12</option>
+                            <option value="1">13</option>
+                            <option value="1">14</option>
+                            <option value="1">15</option>
+                        </select>
+                        <select id="childrenin">
+                                <option value="1">0</option>
+                                <option value="1">1</option>
+                                <option value="1">2</option>
+                                <option value="1">3</option>
+                                <option value="1">5</option>
+                                <option value="1">6</option>
+                                <option value="1">7</option>
+                                <option value="1">8</option>
+                                <option value="1">9</option>
+                                <option value="1">10</option>
+                                <option value="1">11</option>                            
+                                <option value="1">12</option>
+                                <option value="1">13</option>
+                                <option value="1">14</option>
+                                <option value="1">15</option>
+                            </select>
+                        <select id="classin">
+                            <option value="select">Select class</option>
+                            <option value="">Economy</option>
+                            <option value="">First Class</option>
+                            <option value="">Business Class</option>
+                        </select>
+                    </div>
+                    <div>
+
+                    </div>
+                    <div>
+                        <button>Submit</button>                        
+                    </div>
+                </form>
+            </div>
+            
+            <div id="tab-two" class="tab-page">
+                    <form>
+                            <div>
+                                <input id="fromin" placeholder="&#xf041; From" />
+                                <input type="text" placeholder="&#xf041; To" />
+                            </div>
+                            <div>
+                                <label id="checkinlabel">Departure</label>
+                                <label id="checkoutlabel">Arival</label>
+                            </div>
+                            <div>
+                                <input id="checkindate" type="date" placeholder="19/10/2015"/>
+                                <input id="checkoutdate" type="date" placeholder="19/10/2015"/>
+                            </div>
+                            <div>
+                                <label id="age">Adutls (18+)</label>
+                                <label id="children">Children (0-17)</label>    
+                                <label id="class">Class</label>    
+                            </div>
+                            <div>
+                                <select id="agein">
+                                    <option value="1">0</option>
+                                    <option value="1">1</option>
+                                    <option value="1">2</option>
+                                    <option value="1">3</option>
+                                    <option value="1">5</option>
+                                    <option value="1">6</option>
+                                    <option value="1">7</option>
+                                    <option value="1">8</option>
+                                    <option value="1">9</option>
+                                    <option value="1">10</option>
+                                    <option value="1">11</option>                            
+                                    <option value="1">12</option>
+                                    <option value="1">13</option>
+                                    <option value="1">14</option>
+                                    <option value="1">15</option>
+                                </select>
+                                <select id="childrenin">
+                                        <option value="1">0</option>
+                                        <option value="1">1</option>
+                                        <option value="1">2</option>
+                                        <option value="1">3</option>
+                                        <option value="1">5</option>
+                                        <option value="1">6</option>
+                                        <option value="1">7</option>
+                                        <option value="1">8</option>
+                                        <option value="1">9</option>
+                                        <option value="1">10</option>
+                                        <option value="1">11</option>                            
+                                        <option value="1">12</option>
+                                        <option value="1">13</option>
+                                        <option value="1">14</option>
+                                        <option value="1">15</option>
+                                    </select>
+                                <select id="classin">
+                                    <option value="select">Select class</option>
+                                    <option value="">Economy</option>
+                                    <option value="">First Class</option>
+                                    <option value="">Business Class</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <button>Submit</button>                        
+                            </div>
+
+                        </form>
+            </div>
+            
+            <div id="tab-three" class="tab-page">
+                    <form>
+                            <div>
+                                    <input id="fromin" placeholder="&#xf041; Pick up" />
+                                    <input placeholder="&#xf041; Drop off" />
+                            </div>
+                            <div>
+                                <label id="checkinlabel">Pick Up date</label>
+                                <label id="checkoutlabel">Drop Off Date</label>
+                            </div>
+                            <div>
+                                <input id="checkindate" type="date" placeholder="19/10/2015"/>
+                                <input id="checkoutdate" type="date" placeholder="19/10/2015"/>
+                            </div>
+
+                            <div>
+                                <button>Search Cars</button>                        
+                            </div>
+                        </form>
+            </div>
+            <div id="tab-four" class="tab-page">
+                    <form>
+                            <div>
+                                <input placeholder="&#xf041; City, Region or Country" />
+                            </div>
+                            <div>
+                                <button>Reach Destinations</button>                        
+                            </div>
+                        </form>
+                </div>
+
+
+            <script src="js/simple-tabs-pure-js.min.js"></script>
+            <script>
+                    /*
+                     * Initialize the tabs on window to ensure the page is drawn when you init,
+                     * you may also move the script tags to the end of the body to ensure the element is present when the
+                     * plugin is called.
+                     */
+                    window.onload = function () {
+                        var div = document.getElementById('example-tabs');
+                        var exampleTabs = new SimpleTabs(div);
+                    };
+                    
+                    
+                </script>
+
+        </body>
+
+
+</html>
